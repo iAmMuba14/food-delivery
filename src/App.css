@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange-color: #FC8A06;
+    --green-color: #028643;
+    --dark-color: #03081F;
+}

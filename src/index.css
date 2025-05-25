@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--dark-color);
+}
+
+:root {
+    --orange-color: #FC8A06;
+    --green-color: #028643;
+    --dark-color: #03081F;
+}
+
+.section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
