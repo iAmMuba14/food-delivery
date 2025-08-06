@@ -1,0 +1,244 @@
+/* ===================== BASE STYLES ===================== */
+.bannerContainer {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: linear-gradient(135deg, #ebeceb 0%, #e2e3df 100%);
+  padding: 0px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.bannerContainer .image {
+  position: absolute;
+  width: 630px;
+  left: 0;
+  bottom: -5px;
+  z-index: 1;
+}
+
+.bannerContainer .image img {
+  width: 100%;
+  height: 450px;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.bannerContainer .desc {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.bannerContainer .desc .title {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.bannerContainer .desc .title .logo {
+  display: flex;
+  align-items: center;
+}
+
+.bannerContainer .desc .title .logo h1 {
+  display: flex;
+  font-weight: 700;
+  align-self: flex-end;
+  position: relative;
+  bottom: -5px;
+}
+
+.bannerContainer .desc .title .more {
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  bottom: -5px;
+}
+
+.bannerContainer .desc .personalised {
+  position: relative;
+  display: flex;
+  background-color: #000;
+  padding: 10px 30px 10px 0;
+  color: white;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 30px;
+  font-weight: 500;
+  width: 120%;
+  border-radius: 40px;
+  right: 75px;
+}
+
+.bannerContainer .desc .personalised span {
+  color: orange;
+  text-decoration: underline;
+}
+
+.bannerContainer .desc p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.bannerContainer .desc .app-download {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bannerContainer .desc .apple {
+  background-color: #000;
+  padding: 7px 10px;
+  border-radius: 7px;
+}
+
+
+/* ===================== LARGE SCREENS: 1920px ===================== */
+@media (min-width: 1440px) {
+  .bannerContainer {
+    max-width: 1280px;
+    height: 470px;
+  }
+
+  .bannerContainer .image {
+    width: 750px;
+  }
+
+  .bannerContainer .image img {
+    height: 500px;
+  }
+
+  .bannerContainer .desc .title {
+    font-size: 36px;
+  }
+
+  .bannerContainer .desc .title .logo h1,
+  .bannerContainer .desc .title .more {
+    font-size: 38px;
+  }
+
+  .bannerContainer .desc .personalised {
+    font-size: 44px;
+    padding: 12px 20px;
+    padding-right: 50px;
+  }
+
+  .bannerContainer .desc p {
+    font-size: 18px;
+  }
+}
+
+
+/* ===================== TABLETS: ≤1024px ===================== */
+@media (max-width: 1024px) {
+  .bannerContainer {
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 30px 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .bannerContainer .image {
+    position: relative;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .bannerContainer .image img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .bannerContainer .desc {
+    max-width: 100%;
+    padding: 20px 10px;
+    gap: 12px;
+  }
+
+  .bannerContainer .desc .title {
+    font-size: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .bannerContainer .desc .title .logo h1,
+  .bannerContainer .desc .title .more {
+    font-size: 28px;
+  }
+
+  .bannerContainer .desc .personalised {
+    font-size: 26px;
+    padding: 10px 20px;
+    padding-right: 0;
+    width: 100%;
+    right: 0;
+    justify-content: center;
+  }
+
+  .bannerContainer .desc p {
+    font-size: 16px;
+  }
+
+  .bannerContainer .desc .app-download {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+
+/* ===================== MOBILE: ≤600px ===================== */
+@media (max-width: 600px) {
+  .bannerContainer {
+    padding: 20px 15px;
+  }
+
+  .bannerContainer .desc .title {
+    font-size: 20px;
+  }
+
+  .bannerContainer .desc .title .logo h1,
+  .bannerContainer .desc .title .more {
+    font-size: 22px;
+  }
+
+  .bannerContainer .desc .personalised {
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 30px;
+    width: 100%;
+    right: 0;
+  }
+
+  .bannerContainer .desc p {
+    font-size: 15px;
+  }
+
+  .bannerContainer .desc .apple {
+    padding: 6px 8px;
+  }
+
+  .bannerContainer .desc .app-download {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+}

@@ -3,17 +3,24 @@
     padding: 0;
     box-sizing: border-box;
     color: var(--dark-color);
+    font-family: poppins;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(/src/assets/fonts/Poppins-Regular.ttf);
 }
 
 :root {
     --orange-color: #FC8A06;
     --green-color: #028643;
     --dark-color: #03081F;
+    --white-color: #FFFFFF;
 }
 
-.section {
-    width: 90%;
-    margin: 0 auto;
+.app {
+    width: 85%;
+    margin: auto;
 }
 
 a {

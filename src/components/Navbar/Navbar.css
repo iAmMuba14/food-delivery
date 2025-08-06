@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.menu li a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover {
+  background: var(--orange-color);
+  border-radius: 45px;
+}
+
+.menu li:hover a {
+  color: var(--white-color);
+}
+
+.menu .active {
+  background: var(--orange-color);
+  border-radius: 45px;
+}
+
+.menu .active a {
+  color: var(--white-color);
+}
+
+.menuButton {
+    background: var(--dark-color);
+    color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 30px;
+  border-radius: 30px;
+}
+
+.menuButton .acc-icon {
+    background: var(--orange-color);
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.menuButton button {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+}
