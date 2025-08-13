@@ -371,7 +371,7 @@
 .about {
   display: flex;
   flex-direction: column;
-  background: #D9D9D9;
+  background: #F4F4F4;
   padding: 4rem 3.5rem;
   border-radius: 10px;
   margin-bottom: 3rem;
@@ -493,7 +493,8 @@
 .about .about-contents .right .bottom-subtitle {
   text-align: center;
   margin-top: 1.3rem;
-  max-width: 70%;
+  max-width: 90%;
+  text-align: center;
   align-self: center;
   color: var(--dark-color);
 }

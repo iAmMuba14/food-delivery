@@ -5,6 +5,14 @@
   margin-top: 2rem;
 }
 
+.navbar.scrolled {
+  background: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transition: all 0.3s ease-in-out;
+  border-radius: 0 0 10px 10px;
+  padding: .5rem;
+}
+
 .menu {
   display: flex;
 }
@@ -20,13 +28,8 @@
   transition: color 0.3s ease;
 }
 
-.menu li:hover {
-  background: var(--orange-color);
-  border-radius: 45px;
-}
-
 .menu li:hover a {
-  color: var(--white-color);
+  color: var(--orange-color);
 }
 
 .menu .active {

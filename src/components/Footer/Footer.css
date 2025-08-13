@@ -1,0 +1,133 @@
+.footer {
+    width: 100%;
+    background-color: #E8E8E8;
+    padding-top: 4rem;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0 auto 2rem;
+}
+
+.footer-brand .apps {
+    margin-top: .7rem;
+    margin-bottom: .5rem;
+}
+
+.footer-brand p {
+    font-size: 14px;
+}
+
+.footer-brand .apps .apple {
+    background-color: #000;
+    padding: 7px 10px;
+    border-radius: 7px;
+    margin-right: 0.5rem;
+}
+
+.newsletter-section {
+    width: 450px;
+    margin-left: 7rem;
+}
+
+.newsletter-section h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.newsletter-section .newsletter-form {
+    display: flex;
+    align-items: center;
+    background: var(--white-color);
+    max-width: 400px;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.newsletter-section .newsletter-form input {
+    padding: 10px 20px;
+    width: 65%;
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background-color: #d9d9d9;
+}
+
+.newsletter-section .newsletter-form button {
+    width: 35%;
+    background-color: var(--orange-color);
+    color: var(--white-color);
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter-section p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0.6rem;
+}
+
+.newsletter-section p span {
+    text-decoration: underline;
+}
+
+.newsletter-section .social-links {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.newsletter-section .social-links .social-link {
+    font-size: 30px;
+}
+
+.links-section {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.links-section .links-column h4 {
+    margin-bottom: 0.3rem;
+}
+
+.links-section .links-column ul li {
+    margin-bottom: 0.7rem;
+    text-decoration: underline;
+}
+
+.links-section .links-column ul li a {
+    font-size: 14px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 7.5%;
+    background-color: var(--dark-color);
+}
+
+.footer-bottom .copyright {
+    color: var(--white-color);
+    font-size: 13px;
+}
+
+.footer-bottom .footer-bottom-links {
+    display: flex;
+    gap: 25px;
+}
+
+.footer-bottom .footer-bottom-links a {
+    color: var(--white-color);
+    font-size: 13px;
+}
